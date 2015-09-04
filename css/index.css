@@ -1,0 +1,47 @@
+body {
+  padding-top: 70px;
+}
+.jumbotron {
+  background-image: url(../img/top.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.container {
+  margin: 30px 20px;
+}
+
+footer {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #ccc;
+  border-top: 1px solid #bbb;
+}
+
+h2 {
+  margin: 30px 0;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+.thumbnail {
+  border: 0;
+}
+
+.image img {
+  /*画像のはみ出しを防ぐ*/
+  max-width: 95%;
+  /*センタリング*/
+  display: block;
+  margin: 0 auto;
+  /*画像を角丸に*/
+  border-radius: 30px;
+   /*Safari, Chrome用*/
+  -webkit-border-radius: 30px;
+  /*Firefox用*/
+  -moz-border-radius: 30px;
+}
